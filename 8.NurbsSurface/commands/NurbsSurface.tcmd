@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <template name="NurbsSurface">
+        <property name="icon_id">37</property>
+        <property name="function">CustomOp</property>
+        <property name="custom">NurbsSurface.c</property>
+        <property name="shade_echo">true</property>
+        <parameters>
+            <parameter trigger="true" luid="1" type="continue">
+                <property name="prompt">&lt;middle-click> to create surface</property>
+            </parameter>
+        </parameters>
+    </template>
+</templates>

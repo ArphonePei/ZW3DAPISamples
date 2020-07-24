@@ -1,0 +1,14 @@
+The example shows how to realize the following functions with ZW3D APIs:
+
+1..IGS file export:
+    Use "~FileSaveIgs" command to save active file as an "igs" file .
+    The following function shows how to save active file as "igs" format:
+        int FileSaveIgs(void);
+
+2.IGS file import:
+    Use "~FileLoadIgs" command to import specified "igs" file to active file.
+    The following function shows how to import specified "igs" file:
+        int FileLoadIgs(void);
+
+The igs file will be exported to following path:
+   "C:\test.igs"

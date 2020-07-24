@@ -1,0 +1,6 @@
+The example shows how to realize the following functions with ZW3D APIs:
+
+1.create a box and fillet on its top face:
+    Use "!FilletBox" to active command.
+    The following function shows how to create a box and fillet on its top face:
+        int Filletbox (int idData);

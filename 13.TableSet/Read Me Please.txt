@@ -1,0 +1,11 @@
+The example shows how to realize the following functions with ZW3D APIs:
+1.A case of using the table widget, including displaying table form, initializing table widget
+, and handling table widget events:
+    Use "~ShowForm" to display table form.
+
+The following is an introduction to functions:
+1.int ShowForm():Create and show from.
+2.int TableSet(int idIn, int *idOut):initializing table widget.
+3.int TableSetCb(char* TemplateName, int Filed, int Item):Handling table widget events.
+
+Note:Before using DLL, copy the icons folder to the folder where dll is located.

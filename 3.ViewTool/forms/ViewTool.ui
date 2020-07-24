@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ViewTool</class>
+ <widget class="ZsCc::Form" name="ViewTool">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>439</width>
+    <height>207</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>view tools</string>
+  </property>
+  <property name="form_pos" stdset="0">
+   <stringlist>
+    <string>disp,TT,0.0</string>
+    <string>disp,LL,0.0</string>
+   </stringlist>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>9</number>
+   </property>
+   <property name="topMargin">
+    <number>6</number>
+   </property>
+   <property name="rightMargin">
+    <number>9</number>
+   </property>
+   <property name="bottomMargin">
+    <number>6</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="id10">
+     <property name="title">
+      <string notr="true">layer operation</string>
+     </property>
+     <property name="id" stdset="0">
+      <number>10</number>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="margin">
+       <number>9</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="ZsCc::MatrixPushButtons" name="id2">
+        <property name="row">
+         <UInt>4</UInt>
+        </property>
+        <property name="column">
+         <UInt>1</UInt>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+        <property name="id" stdset="0">
+         <number>2</number>
+        </property>
+        <item>
+         <property name="text">
+          <string notr="false">Inquire layer</string>
+         </property>
+         <property name="action">
+          <string notr="true">!LayerInquire:cmd</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string notr="false">Set layer</string>
+         </property>
+         <property name="action">
+          <string notr="true">!LayerSet:cmd</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string notr="false">Add layer</string>
+         </property>
+         <property name="action">
+          <string notr="true">!LayerAdd:cmd</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string notr="false">Delete layer</string>
+         </property>
+         <property name="action">
+          <string notr="true">!LayerDel:cmd</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QGroupBox" name="id30">
+     <property name="title">
+      <string notr="true">view operation</string>
+     </property>
+     <property name="id" stdset="0">
+      <number>30</number>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="margin">
+       <number>9</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="ZsCc::MatrixPushButtons" name="id3">
+        <property name="row">
+         <UInt>6</UInt>
+        </property>
+        <property name="column">
+         <UInt>1</UInt>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+        <property name="id" stdset="0">
+         <number>3</number>
+        </property>
+        <item>
+         <property name="text">
+          <string notr="false">Get entity color</string>
+         </property>
+         <property name="action">
+          <string notr="true">!EntColorGet:cmd</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string notr="false">Set entity color</string>
+         </property>
+         <property name="action">
+          <string notr="true">!EntColorSet:cmd</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string notr="false">Get view info</string>
+         </property>
+         <property name="action">
+          <string notr="true">~ViewGet:cmd</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string notr="false">Set view param</string>
+         </property>
+         <property name="action">
+          <string notr="true">!ViewSet:cmd</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string notr="false">Set display mode</string>
+         </property>
+         <property name="action">
+          <string notr="true">!DispModeSet:cmd</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string notr="false">Set display color</string>
+         </property>
+         <property name="action">
+          <string notr="true">!DispColorSet:cmd</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QGroupBox" name="id40">
+     <property name="title">
+      <string notr="true">Msg operation</string>
+     </property>
+     <property name="id" stdset="0">
+      <number>40</number>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <property name="margin">
+       <number>9</number>
+      </property>
+      <item row="0" column="0">
+       <widget class="ZsCc::MatrixPushButtons" name="id4">
+        <property name="row">
+         <UInt>4</UInt>
+        </property>
+        <property name="column">
+         <UInt>1</UInt>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+        <property name="id" stdset="0">
+         <number>4</number>
+        </property>
+        <item>
+         <property name="text">
+          <string notr="false">Msg Enable</string>
+         </property>
+         <property name="action">
+          <string notr="true">~MsgAreaOpen:cmd</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string notr="false">Msg Disable</string>
+         </property>
+         <property name="action">
+          <string notr="true">~MsgAreaClose:cmd</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string notr="false">Prompt Enable</string>
+         </property>
+         <property name="action">
+          <string notr="true">~PromptEnable:cmd</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string notr="false">Prompt Disable</string>
+         </property>
+         <property name="action">
+          <string notr="true">~PromptDisable:cmd</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ZsCc::Form</class>
+   <extends>QDialog</extends>
+   <header>nui/CommonControls/CcForm.hpp</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ZsCc::MatrixPushButtons</class>
+   <extends>QWidget</extends>
+   <header>nui/CommonControls/CcMatrixButtons.hpp</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

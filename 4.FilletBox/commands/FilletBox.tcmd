@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <template name="FilletBox">
+        <property name="function">CustomOp</property>
+        <property name="custom">FilletBox.c</property>
+        <property name="repeatable">false</property>
+        <parameters>
+            <parameter luid="1" description="center x number" type="number">
+                <property name="prompt">input cx</property>
+            </parameter>
+            <parameter luid="2" description="center y Number" type="number">
+                <property name="prompt">input cy</property>
+            </parameter>
+            <parameter luid="3" description="center z Number" type="number">
+                <property name="prompt">input cz</property>
+            </parameter>
+            <parameter luid="4" description="x length" type="number">
+                <property name="prompt">input x</property>
+            </parameter>
+            <parameter luid="5" description="y length" type="number">
+                <property name="prompt">input y</property>
+            </parameter>
+            <parameter luid="6" description="z length" type="number">
+                <property name="prompt">input z</property>
+            </parameter>
+            <parameter luid="7" description="radius Number" type="number">
+                <property name="prompt">input r</property>
+            </parameter>
+            <parameter trigger="true" luid="8" description="plane" type="entity">
+                <property name="options">/plane/,empty_ok,</property>
+                <property name="prompt">input plane.</property>
+            </parameter>
+        </parameters>
+    </template>
+</templates>

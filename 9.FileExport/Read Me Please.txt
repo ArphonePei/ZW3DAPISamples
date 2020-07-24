@@ -1,0 +1,13 @@
+The example shows how to realize the following functions with ZW3D APIs:
+
+1.PNG file export:
+    Use "~FileExportImg" command to export active file as a "png" file.
+    The following function shows how to export active file as "png" format:
+        int FileExportImg(void);
+
+2.PDF file export:
+    Use "~FileExportPdf" command to export active file as a "pdf" file.
+    The following function shows how to export active file as "pdf" format:
+        int FileExportPdf(void);
+
+png and pdf files are export to ZW3D installation folder.

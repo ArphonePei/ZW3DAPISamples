@@ -1,0 +1,18 @@
+The example shows how to realize the following functions with ZW3D APIs:
+
+1.Active root object id inquiry:
+    Use "~InqRoot" command to inquire all root objectsin active file.
+    The following function shows how to get root objects information:
+        int InqRoot(int idData);
+
+2.Component id inquiry:
+    Use "~InqPartComp" command to inquire the components that belong to active part.
+    The following function shows how to get the components information:
+        int InqPartComp(int idData);
+
+3.Variables information inquiry:
+    Use "~InqPartVar" command to inquire the variables that belong to active part.
+    The following function shows how to get the variables information:
+        int InqPartVar(int idData);
+
+UI file "InqOutputWindow.ui" is used to show all query information.

@@ -1,0 +1,7 @@
+LIBRARY	BaseInquiry.dll
+EXPORTS
+	BaseInquiryInit
+	BaseInquiryExit
+	InqRoot
+	InqPartComp
+	InqPartVar

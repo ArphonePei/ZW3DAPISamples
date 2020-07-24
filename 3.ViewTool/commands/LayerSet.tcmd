@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <template name="LayerSet">
+        <property name="function">LayerSet</property>
+        <parameters>
+            <parameter luid="1" description="layer name" type="string">
+                <property name="prompt">input layer name (ex. Layer0000).</property>
+            </parameter>
+            <parameter luid="2" description="visible option" type="option">
+                <property name="options">gsVisible,|auto_log,</property>
+                <property name="prompt">visible?</property>
+            </parameter>
+            <parameter luid="3" description="frozen option" type="option">
+                <property name="options">gsFrozen,|auto_log,</property>
+                <property name="prompt">frozen?</property>
+            </parameter>
+            <parameter trigger="true" luid="4" type="continue">
+                <property name="prompt">&lt;middle-click> to end command</property>
+            </parameter>
+        </parameters>
+    </template>
+</templates>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <template name="DispModeSet">
+        <property name="function">DispModeSet</property>
+        <property name="repeatable">false</property>
+        <parameters>
+            <parameter trigger="true" luid="1" description="mode selection" type="option">
+                <property name="options">gsDispMode,</property>
+                <property name="prompt">input mode</property>
+            </parameter>
+        </parameters>
+    </template>
+</templates>

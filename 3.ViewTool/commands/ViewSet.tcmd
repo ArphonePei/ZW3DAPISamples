@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <template name="ViewSet">
+        <property name="function">ViewSet</property>
+        <parameters>
+            <parameter luid="1" description="view origin" type="point">
+                <property name="prompt">specify view origin</property>
+            </parameter>
+            <parameter luid="2" description="x axis" type="point">
+                <property name="options">/direction/,get_dir,</property>
+                <property name="prompt">specify x axis direction</property>
+            </parameter>
+            <parameter luid="3" description="y axis" type="point">
+                <property name="options">/direction/,get_dir,</property>
+                <property name="prompt">specify y axis direction</property>
+            </parameter>
+            <parameter luid="4" description="z axis" type="point">
+                <property name="options">/direction/,get_dir,</property>
+                <property name="prompt">specify z axis direction</property>
+            </parameter>
+            <parameter trigger="true" luid="5" description="view extent" type="number">
+                <property name="prompt">input view extent</property>
+            </parameter>
+        </parameters>
+    </template>
+</templates>

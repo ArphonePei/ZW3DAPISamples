@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../schemas/Template.xsd">
+    <template name="MoveEntities">
+        <property name="function">MoveEntities</property>
+        <property name="echo_obj">MoveEntitiesEcho</property>
+        <parameters>
+            <parameter luid="1" type="entity">
+				<property name="options">/shape/,</property>
+                <property name="list">1</property>
+                <property name="callback">MoveEntitiesCb</property>
+            </parameter>
+        </parameters>
+    </template>
+</templates>

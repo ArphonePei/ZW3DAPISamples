@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MoveEntities</class>
+ <widget class="ZsCc::Form" name="MoveEntities">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="functionName">
+   <string notr="true"/>
+  </property>
+  <property name="mode">
+   <enum>ZsCc::Form::Dockable</enum>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="margin">
+    <number>2</number>
+   </property>
+   <item>
+    <widget class="ZsCc::DrawbackBoxGroup" name="drawbackBoxGroup">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page_0">
+      <property name="windowTitle">
+       <string>Required</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Entities：</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="ZsCc::Entity" name="Entity">
+           <property name="id" stdset="0">
+            <number>1</number>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="page_1">
+      <property name="windowTitle">
+       <string>Optional</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="page_2">
+      <property name="windowTitle">
+       <string>Advanced</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ZsCc::Entity</class>
+   <extends>QWidget</extends>
+   <header>nui/CommonControls/Template/CcEntity.hpp</header>
+  </customwidget>
+  <customwidget>
+   <class>ZsCc::DrawbackBoxGroup</class>
+   <extends>QWidget</extends>
+   <header>nui/CommonControls/CcDrawbackBoxGroup.hpp</header>
+   <addpagemethod>addPage</addpagemethod>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ZsCc::Form</class>
+   <extends>QDialog</extends>
+   <header>nui/CommonControls/CcForm.hpp</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

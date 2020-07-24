@@ -1,0 +1,13 @@
+The example shows how to realize the following functions with ZW3D APIs:
+
+1.Create Z3 file:
+    Use "~FileCreate" command to create a Z3 file and add a part and a sheet to it.
+    The following function shows how to create a Z3 file and add root objects to it:
+        int FileCreate(void);
+
+2.Copy Z3 file:
+    Use "~FileCopy" command to create a copy of file APISourceFile.Z3.
+    The following function shows how to copy Z3 file:
+        int FileCopy(void);
+
+All files are created in ZW3D installation folder.

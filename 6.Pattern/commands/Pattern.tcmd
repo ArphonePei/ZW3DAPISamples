@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <template name="Pattern">
+        <property name="function">CustomOp</property>
+        <property name="custom">Pattern.c</property>
+        <property name="echo_obj">PatternEO</property>
+        <property name="shade_echo">true</property>
+        <parameters>
+            <parameter luid="1" description="Entity" type="entity">
+                <property name="options">/shell/face/curve/profile/datum/point/,</property>
+                <property name="list">1</property>
+                <property name="prompt">Select entities to pattern.</property>
+            </parameter>
+            <parameter luid="2" description="Direction" type="point">
+                <property name="options">/direction/,get_dir,</property>
+                <property name="prompt">Specify the direction.</property>
+            </parameter>
+            <parameter luid="3" description="Spacing" type="distance">
+                <property name="options">min=0.0,max=1000000.0,</property>
+                <property name="prompt">Enter spacing along the direction.</property>
+            </parameter>
+            <parameter luid="4" description="Number" type="number">
+                <property name="options">is_int,min=1,max=100,</property>
+                <property name="prompt">Enter total number of instances.</property>
+            </parameter>
+            <parameter trigger="true" luid="5" type="continue">
+                <property name="options">~CdSkipEnd,</property>
+                <property name="prompt">&lt;middle-click> to finish.</property>
+            </parameter>
+        </parameters>
+    </template>
+</templates>

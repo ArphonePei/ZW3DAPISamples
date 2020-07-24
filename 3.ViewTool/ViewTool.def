@@ -1,0 +1,18 @@
+	LIBRARY ViewTool.dll
+	EXPORTS
+	ViewToolInit
+	ViewToolExit
+	LayerInquire
+	LayerSet
+	LayerAdd
+	LayerDel
+	EntColorGet
+	EntColorSet
+	ViewGet
+	ViewSet
+	DispModeSet
+	DispColorSet
+	MsgAreaClose
+	MsgAreaOpen
+	PromptEnable
+	PromptDisable

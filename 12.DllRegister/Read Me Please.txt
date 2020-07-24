@@ -1,0 +1,2 @@
+The example shows how to register dll to zw3d so that the dll can be loaded automatically when zw3d starts.
+Call 'DllRegister -h' for help, the message will show you how to use this application.

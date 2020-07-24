@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>InformationBox</class>
+ <widget class="ZsCc::Form" name="InformationBox">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>show information</string>
+  </property>
+  <property name="persistent">
+   <enum>ZsCc::Form::Temporary</enum>
+  </property>
+  <property name="form_pos" stdset="0">
+   <stringlist>
+    <string>disp,TT,0.0</string>
+    <string>disp,LL,0.0</string>
+   </stringlist>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="leftMargin">
+    <number>9</number>
+   </property>
+   <property name="topMargin">
+    <number>6</number>
+   </property>
+   <property name="rightMargin">
+    <number>9</number>
+   </property>
+   <property name="bottomMargin">
+    <number>6</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="ZsCc::ListWidget" name="id1">
+     <property name="id" stdset="0">
+      <number>1</number>
+     </property>
+     <property name="eventsEnabled" stdset="0">
+      <stringlist>
+       <string>dbl_clk</string>
+      </stringlist>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ZsCc::Form</class>
+   <extends>QDialog</extends>
+   <header>nui/CommonControls/CcForm.hpp</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ZsCc::ListWidget</class>
+   <extends>QListWidget</extends>
+   <header>nui/CommonControls/CcListWidget.hpp</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

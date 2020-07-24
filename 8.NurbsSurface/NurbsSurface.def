@@ -1,0 +1,5 @@
+LIBRARY	NurbsSurface.dll
+EXPORTS
+	NurbsSurfaceInit
+	NurbsSurfaceExit
+	NurbsSurface

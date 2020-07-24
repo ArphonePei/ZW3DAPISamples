@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <template name="LayerAdd">
+        <property name="function">LayerAdd</property>
+        <parameters>
+            <parameter trigger="true" luid="1" description="layer name" type="string">
+                <property name="prompt">input layer name (ex. Layer0000).</property>
+            </parameter>
+        </parameters>
+    </template>
+</templates>

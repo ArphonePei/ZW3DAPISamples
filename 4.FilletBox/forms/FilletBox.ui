@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FilletBox</class>
+ <widget class="ZsCc::Form" name="FilletBox">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>265</width>
+    <height>242</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>FilletBox</string>
+  </property>
+  <property name="mode">
+   <enum>ZsCc::Form::Dockable</enum>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayoutMain">
+   <property name="spacing">
+    <number>2</number>
+   </property>
+   <property name="sizeConstraint">
+    <enum>QLayout::SetDefaultConstraint</enum>
+   </property>
+   <property name="margin">
+    <number>2</number>
+   </property>
+   <item>
+    <widget class="ZsCc::DrawbackBoxGroup" name="drawbackboxgroup">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page1">
+      <property name="windowTitle">
+       <string>Required</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout1">
+       <property name="leftMargin">
+        <number>9</number>
+       </property>
+       <property name="topMargin">
+        <number>4</number>
+       </property>
+       <property name="rightMargin">
+        <number>9</number>
+       </property>
+       <property name="bottomMargin">
+        <number>4</number>
+       </property>
+       <property name="spacing">
+        <number>2</number>
+       </property>
+       <item row="0" column="0" colspan="2">
+        <widget class="QLabel" name="id1label">
+         <property name="text">
+          <string>center x number</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="ZsCc::Number" name="id1">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="id" stdset="0">
+          <number>1</number>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="QLabel" name="id2label">
+         <property name="text">
+          <string>center y Number</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="ZsCc::Number" name="id2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="id" stdset="0">
+          <number>2</number>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0" colspan="2">
+        <widget class="QLabel" name="id3label">
+         <property name="text">
+          <string>center z Number</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="ZsCc::Number" name="id3">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="id" stdset="0">
+          <number>3</number>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <widget class="QLabel" name="id4label">
+         <property name="text">
+          <string>x length</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="ZsCc::Number" name="id4">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="id" stdset="0">
+          <number>4</number>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0" colspan="2">
+        <widget class="QLabel" name="id5label">
+         <property name="text">
+          <string>y length</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="2">
+        <widget class="ZsCc::Number" name="id5">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="id" stdset="0">
+          <number>5</number>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0" colspan="2">
+        <widget class="QLabel" name="id6label">
+         <property name="text">
+          <string>z length</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="2">
+        <widget class="ZsCc::Number" name="id6">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="id" stdset="0">
+          <number>6</number>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0" colspan="2">
+        <widget class="QLabel" name="id7label">
+         <property name="text">
+          <string>radius Number</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="2">
+        <widget class="ZsCc::Number" name="id7">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="id" stdset="0">
+          <number>7</number>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0" colspan="2">
+        <widget class="QLabel" name="id8label">
+         <property name="text">
+          <string>plane</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="2">
+        <widget class="ZsCc::Entity" name="id8">
+         <property name="id" stdset="0">
+          <number>8</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ZsCc::DrawbackBoxGroup</class>
+   <extends>QWidget</extends>
+   <header>nui/CommonControls/CcDrawbackBoxGroup.hpp</header>
+   <addpagemethod>addPage</addpagemethod>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ZsCc::Form</class>
+   <extends>QDialog</extends>
+   <header>nui/CommonControls/CcForm.hpp</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ZsCc::Number</class>
+   <extends>QWidget</extends>
+   <header>nui/CommonControls/Template/CcNumber.hpp</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ZsCc::Entity</class>
+   <extends>QWidget</extends>
+   <header>nui/CommonControls/Template/CcEntity.hpp</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,21 @@
+The example shows how to realize the following functions with ZW3D APIs:
+
+1.Face inquiry:
+    Use "!InqPartShpFace" command to inquire the faces that belong to specified shape.
+    The following function shows how to inquire the faces indices of specified shape:
+        int InqPartShpFace(int idData);
+
+2.Edge inquiry:
+    Use "!InqPartShpEdge" command to inquire the edges that belong to specified shape.
+    The following function shows how to inquire the edges indices of specified shape:
+        int InqPartShpEdge(int idData);
+
+3.Loop and edge id inquiry:
+    Use "!InqFaceLoop" command to inquire loops indices and its edges indices of specified face
+    The following function shows how to inquire the loops and edges indices:
+        int InqFaceLoop(int idData);
+
+4.NURB curve information inquiry:
+    Use "!InqEdgeUVCrv" command to inquire Nurbs information of specified edge's UV curves.
+    The following function shows how to inquire Nurbs information of UV curves:
+        int InqEdgeUVCrv(int idData);

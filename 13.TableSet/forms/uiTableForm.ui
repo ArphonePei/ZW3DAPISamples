@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TableSet</class>
+ <widget class="ZsCc::Form" name="TableSet">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>484</width>
+    <height>276</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Table Set</string>
+  </property>
+  <property name="functionName">
+   <string notr="true">TableSet</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="ZsCc::String" name="id1">
+       <property name="id" stdset="0">
+        <number>1</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="ZsCc::TableWidget" name="id2">
+     <property name="selectionBehavior">
+      <enum>QAbstractItemView::SelectItems</enum>
+     </property>
+     <property name="verticalScrollMode">
+      <enum>QAbstractItemView::ScrollPerPixel</enum>
+     </property>
+     <property name="rowCount">
+      <number>8</number>
+     </property>
+     <property name="columnCount">
+      <number>4</number>
+     </property>
+     <property name="format">
+      <UInt>1</UInt>
+     </property>
+     <property name="id" stdset="0">
+      <number>2</number>
+     </property>
+     <property name="callback" stdset="0">
+      <string>TableSetCb</string>
+     </property>
+     <property name="RecordSelect" stdset="0">
+      <bool>true</bool>
+     </property>
+     <property name="eventsEnabled" stdset="0">
+      <stringlist>
+       <string>dbl_clk</string>
+      </stringlist>
+     </property>
+     <attribute name="horizontalHeaderHighlightSections">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="verticalHeaderHighlightSections">
+      <bool>false</bool>
+     </attribute>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <column>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Combo</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Color</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Date</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>ZsCc::String</class>
+   <extends>QWidget</extends>
+   <header>nui/CommonControls/Template/CcString.hpp</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ZsCc::Form</class>
+   <extends>QDialog</extends>
+   <header>nui/CommonControls/CcForm.hpp</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ZsCc::TableWidget</class>
+   <extends>QTableWidget</extends>
+   <header>nui/CommonControls/CcTableWidget.hpp</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

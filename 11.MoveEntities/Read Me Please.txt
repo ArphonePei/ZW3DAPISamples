@@ -1,0 +1,8 @@
+The example shows how to realize the following functions with ZW3D APIs:
+1.Move selected entities dynamically by using Move Handle:
+    Use "!MoveEntities" to active command.
+
+The following is an introduction to functions:
+1.int MoveEntities(int idData):Move selected entities to the location specified by Move Handle.
+2.int MoveEntitiesCb(char* from, int field, int iddata):Show Move Handle.
+3.void MoveEntitiesEcho(int idData, void *echo):Display a preview of Moving entities.

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\commands">
+      <UniqueIdentifier>{0be0f6f5-78bd-46c1-9a0d-2e7f35b379be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\forms">
+      <UniqueIdentifier>{e9169d82-3c96-4a6d-9472-e91d55852b8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ViewTool.def">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="commands\DispColorSet.tcmd">
+      <Filter>Resource Files\commands</Filter>
+    </None>
+    <None Include="commands\DispModeSet.tcmd">
+      <Filter>Resource Files\commands</Filter>
+    </None>
+    <None Include="commands\EntColorGet.tcmd">
+      <Filter>Resource Files\commands</Filter>
+    </None>
+    <None Include="commands\EntColorSet.tcmd">
+      <Filter>Resource Files\commands</Filter>
+    </None>
+    <None Include="commands\LayerAdd.tcmd">
+      <Filter>Resource Files\commands</Filter>
+    </None>
+    <None Include="commands\LayerDel.tcmd">
+      <Filter>Resource Files\commands</Filter>
+    </None>
+    <None Include="commands\LayerInquire.tcmd">
+      <Filter>Resource Files\commands</Filter>
+    </None>
+    <None Include="commands\LayerSet.tcmd">
+      <Filter>Resource Files\commands</Filter>
+    </None>
+    <None Include="commands\ViewSet.tcmd">
+      <Filter>Resource Files\commands</Filter>
+    </None>
+    <None Include="forms\DispColorSet.ui">
+      <Filter>Resource Files\forms</Filter>
+    </None>
+    <None Include="forms\DispModeSet.ui">
+      <Filter>Resource Files\forms</Filter>
+    </None>
+    <None Include="forms\EntColorGet.ui">
+      <Filter>Resource Files\forms</Filter>
+    </None>
+    <None Include="forms\EntColorSet.ui">
+      <Filter>Resource Files\forms</Filter>
+    </None>
+    <None Include="forms\InformationBox.ui">
+      <Filter>Resource Files\forms</Filter>
+    </None>
+    <None Include="forms\LayerAdd.ui">
+      <Filter>Resource Files\forms</Filter>
+    </None>
+    <None Include="forms\LayerDel.ui">
+      <Filter>Resource Files\forms</Filter>
+    </None>
+    <None Include="forms\LayerInquire.ui">
+      <Filter>Resource Files\forms</Filter>
+    </None>
+    <None Include="forms\LayerSet.ui">
+      <Filter>Resource Files\forms</Filter>
+    </None>
+    <None Include="forms\ViewSet.ui">
+      <Filter>Resource Files\forms</Filter>
+    </None>
+    <None Include="forms\ViewTool.ui">
+      <Filter>Resource Files\forms</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ViewTool.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\VxApi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\zw3d.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

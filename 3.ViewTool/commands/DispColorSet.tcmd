@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <template name="DispColorSet">
+        <property name="function">DispColorSet</property>
+        <parameters>
+            <parameter luid="1" description="attribute mode" type="option">
+                <property name="options">gsDispAttribute,|auto_log,</property>
+                <property name="prompt">input attribute</property>
+            </parameter>
+            <parameter trigger="true" luid="2" description="color selection" type="number">
+                <property name="prompt">input color</property>
+            </parameter>
+        </parameters>
+    </template>
+</templates>

@@ -1,0 +1,6 @@
+The example shows how to realize the following function with ZW3D APIs:
+
+1.Create 3D NURBS arc:
+    Use "~NurbsArc" command to create a 3D Nurbs arc.
+    The following function shows how to create the arc:
+        int NurbsArc(void);

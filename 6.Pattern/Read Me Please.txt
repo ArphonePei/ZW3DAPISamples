@@ -1,0 +1,6 @@
+The example shows how to realize the following functions with ZW3D APIs:
+
+1.Pattern entities along specified direction:
+    Use "!Pattern" command to active the form to pattern entities along specified direction.
+    The following function shows how to pattern entities:
+        int LinearPatternUtil(int idData);

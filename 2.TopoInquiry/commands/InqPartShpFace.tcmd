@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <template name="InqPartShpFace">
+        <property name="function">InqPartShpFace</property>
+        <parameters>
+            <parameter trigger="true" luid="1" description="Shape" type="entity">
+                <property name="options">/shell/,</property>
+                <property name="prompt">Select a shape.</property>
+            </parameter>
+        </parameters>
+    </template>
+</templates>

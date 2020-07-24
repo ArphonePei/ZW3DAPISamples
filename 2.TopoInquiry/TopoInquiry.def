@@ -1,0 +1,8 @@
+LIBRARY	TopoInquiry.dll
+EXPORTS
+	TopoInquiryInit
+	TopoInquiryExit
+	InqPartShpFace
+	InqPartShpEdge
+	InqFaceLoop
+	InqEdgeUVCrv

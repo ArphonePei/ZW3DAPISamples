@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <template name="InqEdgeUVCrv">
+        <property name="function">InqEdgeUVCrv</property>
+        <parameters>
+            <parameter trigger="true" luid="1" description="Edge" type="entity">
+                <property name="options">/edge/,</property>
+                <property name="prompt">Select an edge.</property>
+            </parameter>
+        </parameters>
+    </template>
+</templates>

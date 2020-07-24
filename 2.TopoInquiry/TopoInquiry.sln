@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TopoInquiry", "TopoInquiry.vcxproj", "{B939F188-CC78-4FA6-BB01-014A305481EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B939F188-CC78-4FA6-BB01-014A305481EF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B939F188-CC78-4FA6-BB01-014A305481EF}.Debug|Win32.Build.0 = Debug|Win32
+		{B939F188-CC78-4FA6-BB01-014A305481EF}.Debug|x64.ActiveCfg = Debug|x64
+		{B939F188-CC78-4FA6-BB01-014A305481EF}.Debug|x64.Build.0 = Debug|x64
+		{B939F188-CC78-4FA6-BB01-014A305481EF}.Release|Win32.ActiveCfg = Release|Win32
+		{B939F188-CC78-4FA6-BB01-014A305481EF}.Release|Win32.Build.0 = Release|Win32
+		{B939F188-CC78-4FA6-BB01-014A305481EF}.Release|x64.ActiveCfg = Release|x64
+		{B939F188-CC78-4FA6-BB01-014A305481EF}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CF37EF3-0293-441E-8A7B-DD77FE39BB8A}
+	EndGlobalSection
+EndGlobal

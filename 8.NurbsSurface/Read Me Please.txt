@@ -1,0 +1,11 @@
+The example shows how to realize the following function with ZW3D APIs:
+
+1.Create 3D trimmed surface:
+    Use "!NurbsSurface" command to create a 3D Nurbs trimmed surface.
+    The following function shows how to create the surface:
+        int NurbsSurface(void);
+
+Note that faces created by cvxPartFace() will not add successfully to the
+active part unless there is an active feature (i.e. history operation) for
+them to link to. So the example use .tcmd file "NurbsSurface.tcmd" to
+define a "Custom Feature" and link the 3D trimmed surface to it.

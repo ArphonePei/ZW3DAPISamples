@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Controls name="ZW3D" version="1700">
+	<Control type="ZsUi::RibbonWidget">
+		<Menus />
+		<Tools />
+		<Pages>
+			<Page name="UiNurbsSurfaceTool" text="NurbsSurface" visible="true">
+				<Group name="Create" text="Create" visible="true">
+					<Panel>
+						<Control action="ID_!NurbsSurface" visible="true" mode="0"/>
+					</Panel>
+					<Menu />
+				</Group>
+			</Page>
+		</Pages>
+	</Control>
+	<Control type="ZsUi::EditorWidget" />
+</Controls>

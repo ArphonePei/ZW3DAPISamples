@@ -1,0 +1,6 @@
+LIBRARY	IgsOperation.dll
+EXPORTS
+	IgsOperationInit
+	IgsOperationExit
+	FileLoadIgs
+	FileSaveIgs

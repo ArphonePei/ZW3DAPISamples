@@ -1,0 +1,6 @@
+LIBRARY	FileOperation.dll
+EXPORTS
+	FileOperationInit
+	FileOperationExit
+	FileCreate
+	FileCopy

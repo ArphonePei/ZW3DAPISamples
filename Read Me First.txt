@@ -1,0 +1,5 @@
+Please put header file "VxApi.h" and library file "zw3d.lib" in this folder before you compile any examples.
+
+The header file "VxApi.h" can be found in "api" folder of ZW3D install directory.
+
+The library file "zw3d.lib" can be found in ZW3D install directory.

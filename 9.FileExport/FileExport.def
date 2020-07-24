@@ -1,0 +1,6 @@
+LIBRARY	FileExport.dll
+EXPORTS
+	FileExportInit
+	FileExportExit
+	FileExportImg
+	FileExportPdf

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <template name="EntColorGet">
+        <property name="function">EntColorGet</property>
+        <parameters>
+            <parameter trigger="true" luid="1" description="entity pick" type="entity">
+                <property name="options">/point/edge/face/curve/,</property>
+                <property name="prompt">input entity.</property>
+            </parameter>
+        </parameters>
+    </template>
+</templates>

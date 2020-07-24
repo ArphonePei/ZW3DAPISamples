@@ -1,0 +1,6 @@
+LIBRARY	Pattern.dll
+EXPORTS
+	PatternInit
+	PatternExit
+	LinearPattern
+	LinearPatternEO

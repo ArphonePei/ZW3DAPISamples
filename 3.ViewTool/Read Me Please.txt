@@ -1,0 +1,71 @@
+Please use "$SF=ViewTool" command to active the "view tools" dialog first.
+
+The example shows how to realize the following functions with ZW3D APIs:
+
+1.Layer information inquiry:
+    Use "!LayerInquire" command to inquire specified layer information.
+    The following function shows how to get layer information:
+        int LayerInquire(int idData);
+
+2.Layer information setting:
+    Use "!LayerSet" command to set specified layer state.
+    The following function shows how to set layer state.
+        int LayerSet(int idData);
+
+3.Layer create:
+    Use "!LayerAdd" command to create a layer.
+    The following function shows how to create layer.
+        int LayerAdd(int idData);
+
+4.Layer delete:
+    Use "!LayerDel" command to delete a layer.
+    The following function shows how to delete layer.
+        int LayerDel(int idData);
+
+5.Entity's color inquiry :
+    Use "!EntColorGet" command to inquire entity's color.
+    The following function shows how to get specified entity's color.
+        int EntColorGet (int idData);
+
+6.Entity's color setting:
+    Use "!EntColorSet" command to set entity's color.
+    The following function shows how to set specified entity's color.
+        int EntColorSet(int idData);
+
+7.View information inquiry:
+    Use "~ViewGet" command to inquire active view information.
+    The following function shows how to get the active view information.
+        void ViewGet(void);
+
+8.View information setting:
+    Use "!ViewSet" command to set active view.
+    The following function shows how to set active view.
+        int ViewSet(int idData);
+
+9.Display mode setting:
+    Use "!DispModeSet" command to change display mode of active view.
+    The following function shows how to set display mode.
+        int DispModeSet(int idData);
+
+10.Default point/wireframe/surface color setting:
+    Use "!DispColorSet" command to change the default point/wireframe/surface color.
+    The following function shows how to change default color.
+        int DispColorSet(int idData)
+
+11.Message area:
+    Use "~MsgAreaOpen" command to open the message area.
+    The following function shows how to open the message area.
+        void MsgAreaOpen(void);
+
+    Use "~MsgAreaClose" command to close the message area.
+    The following function shows how to close the message area.
+        void MsgAreaClose(void);
+
+12.Prompt control:
+    Use "~PromptEnable" command to enable the command prompts.
+    The following function shows how to enable the command prompts.
+        void PromptEnable(void)
+
+    Use "~PromptDisable" command to disable the command prompts.
+    The following function shows how to disable the command prompts.
+        void PromptDisable(void)
