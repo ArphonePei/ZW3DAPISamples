@@ -10,3 +10,6 @@ How to Use it:
 6. run the command you defined.
 
 any issues about ZW3D APIs, please feel free to contact:zdn@zwcad.com
+
+#about ZW3DWizard.vsix
+this tool is used to create ZW3D project quickly,use this wizard to create project,all proerties have been preset.
