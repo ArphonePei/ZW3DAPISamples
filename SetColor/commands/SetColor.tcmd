@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../schemas/Template.xsd">
+    <template name="SetColor">
+        <property name="function">SetColor</property>
+        <parameters>
+            <parameter luid="1" type="entity">
+                <property name="options">/Eface/,</property>
+            </parameter>
+        </parameters>
+    </template>
+</templates>
